@@ -1,0 +1,1093 @@
+/*
+============================================
+HEADER STYLES
+============================================
+*/
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+li {
+    list-style: none;
+    margin-right: 20px;
+    color:  rgb(243, 243, 248);
+}
+
+li a:hover {
+    color: rgb(74, 74, 158);
+}
+
+header {
+    background-color: white;
+    padding: 0.5px 0;
+}
+.sticky-header {
+        top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.image-section {
+    background: url('./desktop-splash-v2.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 200px 20px;
+}
+.ratings-section {
+    background-color: rgb(248, 242, 242);
+    text-align: center;
+    padding: 95px;
+    font-size: 30px;
+    letter-spacing: .5px;
+}
+.ratings-title {
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.rating-text {
+    margin-top: 30px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+nav img {
+    width: 160px;
+    height: 90px;
+    margin-right: 10px;
+}
+.main {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-family: "Arial" serif;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+    /* color: #002654; */
+    font-size: 15px;
+
+}
+
+a:hover {
+    border-bottom: 2px solid white;
+}
+
+/*code to move login link and signup button to the end */
+.auth-links {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    color: grey;
+    margin: 10px;
+    font-size: 14px;
+    padding: 1;
+
+}
+
+.signup {
+    background-color: #00a0df;
+    color: white;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.signup:hover {
+    background-color: #00a0df;
+}
+/*
+=================================================================================
+HOME
+======================================================================================
+*/
+
+.hr {
+    border-bottom: 1px none rgb(231, 222, 222);
+    height: 80px;
+}
+
+.hero-intro{
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+.hero img{
+object-fit: cover;   
+width: 100%;
+height: 100%; 
+}
+.hero{
+margin: 0 auto;
+width: 80%;
+}
+.hero-image{
+width: 50%;
+margin: 0 auto;
+}
+
+.One h1 {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #00a0df;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: "Cera Pro", serif;
+}
+
+.One h2 {
+    font-size: 17px;
+    text-decoration: none;
+    color: gray;
+    letter-spacing: .2px;
+    margin-left: 400px;
+    line-height: 20px;
+}
+
+.One h3 {
+    font-size: 17px;
+    margin-left: 150px;
+    color: rgb(59, 58, 58);
+    font-family: initial;
+    text-decoration: none;
+    letter-spacing: .5px;
+    line-height: 50px;
+}
+.One a{
+    font-size: 18px;
+    margin-left: 520px;
+    color: #00a0df;
+    font-family: initial;
+    text-decoration: none;
+    letter-spacing: .5px;
+    line-height: 50px;
+}
+
+
+.Two {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(8, 14, 107);
+    font-weight: 960px;
+}
+
+.Two a {
+    font-size: 50px;
+    font-family: initial;
+    text-decoration: none;
+    color: rgb(10, 19, 150);
+    letter-spacing: .12px;
+    text-align: center;
+}
+
+.Two h3 {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: .5px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.back img {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.div {
+    width: 100%;
+    display: flex;
+}
+
+h1 {
+    display: flex;
+    font-size: 20px;
+    color: rgb(32, 12, 146);
+    line-height: 40px;
+}
+.back h2 {
+    display: flex;
+    font-size: 22px;
+    color: rgb(29, 11, 134);
+    line-height: 35px;
+}
+.back h3 {
+    display: flex;
+    color: rgb(32, 12, 146);
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.div {
+    width: 100%;
+    display: flex;
+}
+.three {
+    padding: 30px;
+    margin: 30px;
+}
+
+.three p {
+    color: rgb(12, 4, 53);
+    font-size: 24px;
+    line-height: 30px;
+}
+.three img {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.three h1 {
+    display: flex;
+    font-size: 18px;
+    line-height: 30px;
+}
+.three h2 {
+    display: flex;
+    font-size: 18px;
+    line-height: 30px;
+}
+.three h3 {
+    display: flex;
+    font-size: 18px;
+}
+
+.div {
+    width: 100%;
+    display: flex;
+    margin-right: 50px;
+}
+.four {
+    padding: 30px;
+    margin: 30px;
+}
+.four h4 {
+    font-size: 5px;
+    width: 29rem;
+    font-size: 22px;
+    letter-spacing: .2px;
+    display: flex;
+    padding: 2rem 1rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(249, 249, 250);
+    background-color: rgb(3, 3, 99);
+    font-weight: 600;
+    border: 2px solid;
+    border-radius: 10px;
+}
+.four h4 {
+    font-size: 5px;
+    width: 29rem;
+    font-size: 22px;
+    letter-spacing: .2px;
+    display: flex;
+    padding: 2rem 1rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(249, 249, 250);
+    background-color: rgb(3, 3, 99);
+    font-weight: 600;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.hr {
+    border-bottom: 1px solid black;
+    height: 100px;
+    line-height: 100px;
+}
+
+
+.div {
+    width: 100%;
+    display: flex;
+}
+.five {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(8, 14, 107);
+    font-weight: 960px;
+}
+
+.five a {
+    font-size: 50px;
+    font-family: initial;
+    text-decoration: none;
+    color: rgb(10, 19, 150);
+    letter-spacing: .12px;
+    margin-left: 50px;
+}
+
+.five h3 {
+    font-size: 20px;
+    color: rgba(8, 8, 8, 0.945);
+    text-decoration: none;
+    letter-spacing: .5px;
+    line-height: 70px;
+    margin-right: 0;
+}
+
+.six img {
+    padding-left: 30px;
+    padding-right: 30px;
+    flex-wrap: wrap;
+}
+.roth{
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+h1 {
+    flex-wrap: wrap;
+    font-size: 20px;
+    color: rgb(32, 12, 146);
+    line-height: 40px;
+}
+
+.six h2 {
+    display: flex;
+    font-size: 18px;
+    float: left;
+    
+}
+p{
+    flex-wrap: wrap;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.hr {
+    border-bottom: 1px solid black;
+    height: 200px;
+    line-height: 100px;
+}
+.nine {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(8, 14, 107);
+    font-weight: 960px;
+}
+
+.nine a {
+    font-size: 50px;
+    font-family: initial;
+    text-decoration: none;
+    color: rgb(10, 19, 150);
+    letter-spacing: .12px;
+    text-align: center;
+}
+
+.nine h3 {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: .5px;
+    line-height: 70px;
+    text-align: center;
+}
+
+
+.ten image {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.div {
+    width: 100%;
+    display: flex;
+}
+
+h1 {
+    display: flex;
+    font-size: 24px;
+    color: rgb(32, 12, 146);
+    line-height: 40px;
+}
+
+.ten h2 {
+    display: flex;
+    font-size: 18px;
+    color: rgb(32, 12, 146);
+    line-height: 50px;
+}
+
+.ten h3 {
+    display: flex;
+    font-size: 20px;
+    color: rgb(32, 12, 146);
+    line-height: 50px;
+}
+
+.zero-button {
+    width: 10rem;
+    font-size: 15px;
+    letter-spacing: 4px;
+    display: flex;
+    padding: 1rem 1rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(249, 249, 250);
+    background-color: rgb(3, 3, 99);
+    font-weight: 600;
+    border: 1px solid;
+    border-radius: 80px;
+    margin-left: 500px;
+    line-height: 30px;
+}
+
+.hr {
+    border-bottom: 1px solid black;
+    height: 200px;
+    line-height: 100px;
+}
+
+.twelve {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(8, 14, 107);
+    font-weight: 960px;
+}
+
+.twelve a {
+    font-size: 50px;
+    font-family: initial;
+    text-decoration: none;
+    color: rgb(10, 19, 150);
+    letter-spacing: .12px;
+    text-align: center;
+}
+
+.twelve h3 {
+    font-size: 25px;
+    color: rgb(24, 20, 20);
+    text-decoration: none;
+    letter-spacing: .5px;
+    line-height: 70px;
+    text-align: center;
+}
+
+
+.third img {
+    padding: 30px;
+    margin: 30px;
+}
+
+.div {
+    width: 100%;
+    display: flex;
+}
+.third h3{
+    display: flex;
+    font-size: 20px;
+    color: rgb(32, 12, 146);
+    line-height: 15px;
+}
+.third h3{
+    display: flex;
+    font-size: 20px;
+    color: rgb(32, 12, 146);
+    line-height: 15px;
+}
+.third h3 {
+    display: flex;
+    font-size: 20px;
+    color: rgb(32, 12, 146);
+    line-height: 15px;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+}
+
+.bat {
+    width: 100%;
+    display: flex;
+    margin-right: 0;
+}
+.fifth-img {
+    padding: 30px;
+    margin: 30px;
+    margin-left: 6em;
+    object-fit: contain;
+}
+.fifth-img box2{
+    object-fit: cover;
+    width: 80%;
+    margin: 0;
+
+}
+.box2{
+    width: fit-content;
+}
+
+h6 {
+    font-size: 5px;
+    width: 29rem;
+    font-size: 15px;
+    letter-spacing: .2px;
+    display: flex;
+    padding: 2rem 1rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(249, 249, 250);
+    background-color: rgb(3, 3, 99);
+    font-weight: 600;
+    border: 1px solid;
+    border-radius: 2px;
+    margin-left: px;
+}
+
+.second-button {
+    width: 10rem;
+    font-size: 15px;
+    letter-spacing: 4px;
+    display: flex;
+    padding: 1rem 1rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(249, 249, 250);
+    background-color: rgb(3, 3, 99);
+    font-weight: 600;
+    border: 1px solid;
+    border-radius:700px;
+    line-height: 30px;
+    margin-left: 500px;
+}
+
+.hr {
+    border-bottom: 1px solid black;
+    height: 200px;
+    line-height: 100px;
+}
+
+.sixth {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(8, 14, 107);
+    font-weight: 960px;
+}
+.sixth a {
+    font-size: 50px;
+    font-family: initial;
+    text-decoration: none;
+    color: rgb(10, 19, 150);
+    letter-spacing: .12px;
+    text-align: center;
+}
+.sixth h3 {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: .5px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.ball {
+    width: 100%;
+    display: flex;
+}
+.seventhen-container{
+    padding: 200px 0;
+    display: flex;
+    
+    max-width: 80%;
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    justify-content: space-between;
+}
+.two{
+    display: flex;
+}
+.flower {
+    margin: 40px;
+    display: flex;
+    padding-bottom: 20px;
+    width: 90%;
+    justify-content: space-between;
+}
+h1 {
+    display: flex;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 40px;
+
+}
+h2 {
+    display: flex;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 40px;
+}
+h3 {
+    display: flex;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 40px;
+}
+
+.p{
+    font-size: 20px;
+    line-height: 30px;
+    margin: auto; 
+}
+.Two{
+    display: flex;
+}
+.king{
+    margin: 40px;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    width: 90%;
+    justify-content: initial;
+    position: relative;
+}
+span {
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 40px;
+}
+h4 {
+    display: flex;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 40px;
+}
+h5 {
+    display: flex;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 40px;
+}
+
+.third-button {
+    width: 10rem;
+    font-size: 15px;
+    letter-spacing: 4px;
+    display: flex;
+    padding: 1rem 1rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(249, 249, 250);
+    background-color: rgb(3, 3, 99);
+    font-weight: 600;
+    border: 1px solid;
+    border-radius: 80px;
+    margin-left: 600px;
+    line-height: 30px;
+}
+
+.hr {
+    border-bottom: 1px solid black;
+    height: 200px;
+    line-height: 700px;
+}
+
+.ninethen {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #00a0df;
+    line-height: 100px;
+}
+.ninethen a {
+    font-size: 30px;
+    font-style: normal;
+    font-family: 'Arial', serif;
+    line-height: 24px;
+    text-decoration: none;
+    color: #00a0df;
+    letter-spacing: .5px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 90px;
+}
+.ninethen h3 {
+    font-size: 30px;
+    font-family: "chronicle Deck", serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #002c9b;
+    text-decoration: none;
+    letter-spacing: .5px;
+    line-height: 5px;
+    text-align: center;
+}
+
+.plan-button {
+    width: 10rem;
+    font-family: 'Arial', serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 4px;
+    padding: 1rem 1rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(18, 157, 221);
+    font-weight: 600;
+    border: 1px solid;
+    border-radius: 300px;
+    margin-left: 600px;
+    line-height: 30px;
+}
+.twenty a:hover{
+    text-decoration: underline;
+}
+/*
+===================================================
+FOOTER STYLES
+===================================================
+
+ /* Add this code to style the footer */
+ footer {
+    color: white;
+    padding: 60px 0;
+}
+
+.footer-container {
+    background-color: #002654;
+    color: #fff;
+    padding: 60px 0;
+    font-family: "cero pro", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 24px;
+    color: #a1bce6;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-container-top {  
+    background-color: #fff;
+}
+
+.footer-data a:hover {
+    border-bottom: 2px solid #a1bce6;
+} 
+.footer-container ul li a{
+    text-decoration: none;
+    color: #a1bce6;
+}
+.list-elements{
+    color: white;
+
+}
+/* 
+=========================
+custom
+========================= */
+.hero-intro span{
+    color: #002c9b;
+    font-weight: 600;
+    margin: 0;
+
+}
+.hero-intro h2{
+
+    font-size: 60px;
+    color: #002c9b;
+
+}
+.hero{
+    border-bottom: 2px solid black;
+}
+.One h3{
+    width: 100%;
+    margin: 0 ;
+    padding-left: 1.5em;
+    text-align: center;
+}
+
+.bot {
+    display: flex;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 0;
+}
+.bot p{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+.celeb{
+    padding: 4em;
+}
+.bot img{
+    width:100%;
+    height: 55%;
+}
+.bot aside{
+    width: 100%;
+    padding: 0;
+    margin: 0 2em;
+    
+}
+.bot h1{
+    display: block;
+
+}
+.celeb-image{
+    width: 120%;
+    height: 50%;
+    margin: 0;
+}
+.celeb-image img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    margin-left: -2em;
+}
+.bot aside p{
+    margin: 0 auto;
+    width: 90%;
+    font-family: 'Fira Sans';
+    font-size: 15px;
+
+    text-align: center;
+    line-height: 25px;
+    padding: 0;
+}
+.bot aside h4{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 19px;
+    font-family: 'Fira Sans';
+    color: #52afec;
+}
+.bx3 img{
+    object-fit: cover;
+    width: 100%;
+    margin: 0;
+
+}
+.bx3{
+    width: fit-content;
+}
+
+.bet {
+    display: flex;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 0;
+}
+.bet p{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+.sesame{
+    padding: 4em;
+}
+.sesame img{
+    width:100%;
+    height: 55%;
+}
+.bet section{
+    width: 100%;
+    padding: 0;
+    margin: 0 2em;
+    
+}
+.bet h1{
+    display: block;
+
+}
+.sesame -image{
+    width: 120%;
+    height: 50%;
+    margin: 0;
+}
+.sesame-image img{
+    object-fit: contain;
+    height: 80%;
+    width: 80%;
+    margin-left: -2em;
+}
+.bet section p{
+    margin: 0 auto;
+    width: 90%;
+    font-family: 'Fira Sans';
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    padding: 0;
+}
+.bet section h4{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 19px;
+    font-family: 'Fira Sans';
+    color: #0913a5;
+}
+
+.box1 img{
+    object-fit: cover;
+    width: 80%;
+    margin: 0;
+
+}
+.box1{
+    width: fit-content;
+}
+
+.but{
+    padding: 4em;
+    display: flex;
+}
+.fourth img{
+    width:80%;
+    height: 55%;
+}
+.but section{
+    width: 100%;
+    padding: 0;
+    margin: 0 2em;
+    
+}
+.but section h5{
+    display: flex;
+    font-size: 15px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Fira Sans';
+
+}
+.fourth-image img{
+    object-fit: contain;
+    height: 50%;
+    width: 50%;
+    margin-left: -2em;
+}
+
+.flower {
+    display: flex;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 0;
+}
+.flower p{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+.flower img{
+    width:100%;
+    height: 55%;
+}
+.flower section{
+    width: 100%;
+    padding: 0;
+    margin: 0 2em;
+    
+}
+.flower h4{
+    display: block;
+
+}
+.flower-img{
+    width: 80%;
+    height: 80%;
+    margin: 0;
+}
+.flower section p{
+    margin: 0 auto;
+    width: 80%;
+    font-family: 'Fira Sans';
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    padding: 0;
+}
+.fower section h4{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 19px;
+    font-family: 'Fira Sans';
+    color: #52afec;
+}
+.cox3 img{
+    object-fit: cover;
+    width: 80%;
+    margin: 0;
+    height: 90%;
+}
+.cox3{
+    width: fit-content;
+}
+
+
+.logo {
+    display: flex;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 0;
+}
+.logo{
+    padding: 1em;
+}
+.logo-img{
+    width:40%;
+    height: 40%;
+    padding: 1rem 1rem;
+    justify-content: center;
+    color: rgb(249, 249, 250);
+    background-color: rgb(3, 3, 99);
+    border: 1px solid;
+    border-radius: 30px;
+}
+.logo section{
+    width: 100%;
+    padding: 0;
+    margin: 0 2em; 
+}
